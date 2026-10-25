@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="favSwirlBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0056D2" />
+      <stop offset="100%" stopColor="#002366" />
+    </linearGradient>
+    <linearGradient id="favSwirlCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#00A4EF" />
+      <stop offset="100%" stopColor="#0066FF" />
+    </linearGradient>
+    <linearGradient id="favSwirlOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FF7A00" />
+      <stop offset="100%" stopColor="#FF3B00" />
+    </linearGradient>
+    <linearGradient id="favSwirlRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FF2E00" />
+      <stop offset="100%" stopColor="#CC0000" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" stroke="#0056D2" stroke-width="2.5" stroke-dasharray="5 3" opacity="0.3" />
+  <path d="M50 14 C65 14 82 25 84 44 C81 44 72 38 64 34 C56 30 51 22 50 14 Z" fill="url(#favSwirlBlue)" />
+  <path d="M86 48 C86 65 75 82 56 86 C56 82 60 72 63 64 C66 56 76 50 86 48 Z" fill="url(#favSwirlCyan)" />
+  <path d="M52 86 C35 86 18 75 14 56 C18 56 28 60 36 64 C44 68 49 76 52 86 Z" fill="url(#favSwirlOrange)" />
+  <path d="M14 52 C14 35 25 18 44 14 C44 18 40 28 37 36 C34 44 24 50 14 52 Z" fill="url(#favSwirlRed)" />
+  <circle cx="50" cy="50" r="16" fill="#FFFFFF" stroke="#0056D2" stroke-width="2.5" />
+  <text x="50" y="55" text-anchor="middle" fill="#0056D2" font-size="14" font-weight="900" font-family="system-ui, sans-serif">Ai</text>
+</svg>

@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   AmiHive brand theme: Blue, Orange & White
+   Change a value here and the whole site updates.
+   ------------------------------------------------------------------ */
+@theme {
+  /* Blues */
+  --color-brand-blue: #0056D2;
+  --color-brand-blue-dark: #003A99;
+  --color-brand-navy: #001A45;
+  --color-brand-sky: #1FA8F0;
+  --color-brand-blue-50: #EAF2FF;
+
+  /* Oranges */
+  --color-brand-orange: #FF7A00;
+  --color-brand-orange-deep: #F05A00;
+  --color-brand-orange-hover: #D94E00;
+  --color-brand-amber: #FFA533;
+}
+
+@layer base {
+  :root {
+    --brand-blue: #0056D2;
+    --brand-blue-dark: #001A45;
+    --brand-blue-navy: #003A99;
+    --brand-blue-accent: #1FA8F0;
+    --brand-orange: #FF7A00;
+    --brand-orange-hover: #D94E00;
+    --brand-orange-light: #FFF4E8;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #0f172a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF7A00;
+}
